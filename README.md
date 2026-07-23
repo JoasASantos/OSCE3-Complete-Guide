@@ -288,6 +288,7 @@
 - [Anitian - A Study in Exploit Development Part 1: Setup and Proof of Concept](https://www.anitian.com/a-study-in-exploit-development-part-1-setup-and-proof-of-concept/)
 - [Sam's Class - WWC 2014](https://samsclass.info/127/127_WWC_2014.shtml)
 - [Stack Overflow - Exploit Development in Python 3](https://stackoverflow.com/questions/42615124/exploit-development-in-python-3)
+- [Darkmoon](https://github.com/ASCIT31/Dark-Moon) - Open source (GPL-3.0) autonomous AI penetration testing platform covering web, API, Active Directory and Kubernetes, with proof of exploitation.
 - [CTF Writeups - Converting Metasploit Modules to Python](https://cd6629.gitbook.io/ctfwriteups/converting-metasploit-modules-to-python)
 - [PacktPub - Networking and Servers](https://subscription.packtpub.com/book/networking_and_servers/9781785282324/8)
 - [Cybrary - Exploit Development Part 5](https://www.cybrary.it/video/exploit-development-part-5/)
