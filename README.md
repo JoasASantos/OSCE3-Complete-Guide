@@ -414,7 +414,7 @@
 ## Social Network
 
 ### [Joas Antonio - Linkedin](https://www.linkedin.com/in/joas-antonio-dos-santos)
-### [CyberSceurityUP- GitHub](https://github.com/CyberSecurityUP)
+### [JoasASantos - GitHub](https://github.com/JoasASantos)
 ### [C0d3Cr4zy - Twitter](https://twitter.com/C0d3Cr4zy)
 
 ### [Filipi Pires - Linkedin](https://www.linkedin.com/in/filipipires/)
