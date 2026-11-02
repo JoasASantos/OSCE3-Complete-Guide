@@ -1,6 +1,35 @@
 # OSCE³ and OSEE Study Guide [![Awesome](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)](https://github.com/sindresorhus/awesome)
+> A community resource library for web application security, advanced penetration testing, and Windows exploit development.
+
+Explore study guides, technical references, hands-on labs, walkthroughs, and personal certification reviews across **OSWE, OSEP, OSED, and OSEE**.
+
+## Quick Navigation
+
+| Track | Topics | Resources |
+| --- | --- | --- |
+| **[OSWE](#oswe)** | Source code analysis and web application exploitation | [Content](#oswe-content) · [Study materials](#oswe-study-materials) · [Vulnerabilities](#oswe-vulnerabilities) · [Reviews](#oswe-reviews) · [Videos & walkthroughs](#oswe-videos) · [Extra content](#oswe-extra-content) |
+| **[OSEP](#osep)** | Evasion, lateral movement, and Active Directory | [Content](#osep-content) · [Study materials](#osep-study-materials) · [Reviews](#osep-reviews) · [Labs](#osep-labs) |
+| **[OSED](#osed)** | Windows user-mode exploit development | [Content](#osed-content) · [Study materials](#osed-study-materials) · [Reviews](#osed-reviews) · [Labs](#osed-labs) |
+| **[OSEE](#osee)** | Advanced Windows exploitation and security mitigations | [Content](#osee-content) · [Study materials](#osee-study-materials) · [Reviews](#osee-reviews) · [Labs](#osee-labs) |
+
+**More:** [OSCE³ OffSec resources](#osce-resources) · [Connect with the contributors](#social-network)
+
+## How to Use This Guide
+
+1. **Choose a track** and use its content list to map your study topics.
+2. **Build your references** with the study materials and vulnerability articles.
+3. **Practice deliberately** with the labs and walkthroughs, keeping notes on your findings and troubleshooting.
+4. **Learn from others** through reviews, preparation tips, and exam experiences.
+
+> **Resource context:** This collection includes historical material, personal experiences, and resources shared across tracks. Treat the topic lists as a study map; consult OffSec directly for current course and exam requirements.
+
+---
 
 ## OSWE
+
+> Source code analysis, web vulnerabilities, and application exploitation.
+
+<a id="oswe-content"></a>
 
 ### Content
 
@@ -27,8 +56,11 @@
 - RCE via database Functions
 - OS Command Injection via WebSockets (BlackBox)
 
+<a id="oswe-study-materials"></a>
+
 ### Study Materials
-1. [timip-GitHub](https://github.com/timip/OSWE)- Reference guide
+
+1. [timip-GitHub](https://github.com/timip/OSWE) - Reference guide
 2. [noraj-GitHub](https://github.com/noraj/AWAE-OSWE) - Reference guide
 3. [wetw0rk-Github](https://github.com/wetw0rk/AWAE-PREP) - Reference guide
 4. [kajalNair-Github](https://github.com/kajalNair/OSWE-Prep) - Reference guide
@@ -43,6 +75,10 @@
 13. [Jaelkoh](https://infosec.jaelkoh.com/2024/my-first-year-in-infosec-zero-to-osce3)
 14. [snoopysecurity](https://github.com/snoopysecurity/OSWE-Prep) - Reference Guide
 15. [aaidanquimby](https://github.com/aaidanquimby/OSWE-Notes) - Reference Guide
+16. [OSWE Methodology — Hack with Mike](https://hackwithmike.com/featured/oswe-methodology)
+17. [OSWE Guide — Bruno Rocha Moura](https://www.brunorochamoura.com/posts/oswe-guide/)
+
+<a id="oswe-vulnerabilities"></a>
 
 ### Vulnerabilities
 
@@ -78,6 +114,8 @@
 30. [Form Based SQL Injection](https://www.hackingarticles.in/form-based-sql-injection-manually/)
 31. [Dumping Database using Outfile](https://www.hackingarticles.in/dumping-database-using-outfile/)
 32. [IDOR](https://www.hackingarticles.in/beginner-guide-insecure-direct-object-references/)
+
+<a id="oswe-reviews"></a>
 
 ### Reviews
 
@@ -119,19 +157,38 @@
 36. [OSWE Notes – Secdomain](https://github.com/Secdomain/OSWE-Notes)
 37. [OSWE Resources – saunders-jake](https://github.com/saunders-jake/oswe-resources)
 38. [OSWE Review - steflan](https://steflan-security.com/offsec-web-expert-oswe-review/)
+39. [OSWE Review — chndlrx](https://chndlrx.com/posts/oswe-review/)
+40. [How I Passed OSWE: The System That Actually Worked for Me — mchklt](https://mchklt.medium.com/how-i-passed-oswe-the-system-that-actually-worked-for-me-a21250dbce44)
 
+<a id="oswe-videos"></a>
 
-### Extra Content 
+### Videos & Walkthroughs
+
+- [I Passed OSWE. Here's My Exact Exploit Process.](https://www.youtube.com/watch?v=GaBN0uB39cQ)
+- [I hacked this app from source code to root (OSWE walkthrough)](https://www.youtube.com/watch?v=9Z2KAXXixOY)
+- [How I Passed OSWE: Practical Tips for OffSec Web Expert Certification](https://www.youtube.com/watch?v=YlS7iaCGgLQ)
+
+<a id="oswe-extra-content"></a>
+
+### Extra Content
 
 1. [OSWE labs](https://www.youtube.com/watch?v=F46tQww_IvE) - OSWE labs and exam's review/guide
 2. [HTB Machine](https://www.youtube.com/watch?v=NMGsnPSm8iw&list=PLidcsTyj9JXKTnpphkJ310PVVGF-GuZA0)
 3. [Deserialization](https://www.youtube.com/watch?v=t-zVC-CxYjw&list=PLL5n_4gj5JCw1aRrlVbdMCAugNz-ia3Wh)
-7. [B1twis3](https://medium.com/@fasthm00/the-state-of-oswe-c68150210fe4)
-9. [jangelesg GitHub](https://github.com/jangelesg/AWAE-OSWE)
-10. [rootshooter](https://github.com/rootshooter/oswe-prep-2022)
-11. [svdwi](https://github.com/svdwi/OSWE-Labs-Poc)
+4. [B1twis3](https://medium.com/@fasthm00/the-state-of-oswe-c68150210fe4)
+5. [jangelesg GitHub](https://github.com/jangelesg/AWAE-OSWE)
+6. [rootshooter](https://github.com/rootshooter/oswe-prep-2022)
+7. [svdwi](https://github.com/svdwi/OSWE-Labs-Poc)
+
+[↑ Back to navigation](#quick-navigation)
+
+---
 
 ## OSEP
+
+> Advanced penetration testing, evasion techniques, and enterprise attack paths.
+
+<a id="osep-content"></a>
 
 ### Content
 
@@ -153,6 +210,8 @@
 - Combining the Pieces
 - Trying Harder: The Labs
 
+<a id="osep-study-materials"></a>
+
 ### Study Materials
 
 - [OSEP Code Snippets](https://github.com/chvancooten/OSEP-Code-Snippets)
@@ -168,6 +227,8 @@
 - [OSEP PREP Useful Resources Payloads](https://github.com/Ross46/OSEP-PREP/blob/main/Useful%20Resources/Payloads.md)
 - [OSEP in3x0rab13](https://github.com/In3x0rabl3/OSEP)
 - [OSEP forsec](https://forsec.nl/osep.html)
+
+<a id="osep-reviews"></a>
 
 ### Reviews
 
@@ -217,6 +278,8 @@
 - [OSEPlayground – Extravenger](https://github.com/Extravenger/OSEPlayground)
 - [YouTube – OSEP Review Video](https://www.youtube.com/watch?v=GweSTA7a4ho)
 
+<a id="osep-labs"></a>
+
 ### Labs
 
 - [SpaceRaccoon Dev - OSEP Review and Exam](https://spaceraccoon.dev/offensive-security-experienced-penetration-tester-osep-review-and-exam)
@@ -233,7 +296,15 @@
 - [GitHub - In3x0rabl3/OSEP](https://github.com/In3x0rabl3/OSEP)
 - [GitHub - timip/OSEP](https://github.com/timip/OSEP)
 
+[↑ Back to navigation](#quick-navigation)
+
+---
+
 ## OSED
+
+> Windows user-mode exploit development, debugging, shellcode, and ROP.
+
+<a id="osed-content"></a>
 
 ### Content
 
@@ -247,6 +318,8 @@
 - Stack overflows and DEP/ASLR bypass
 - Format string specifier attacks
 - Custom ROP chains and ROP payload decoders
+
+<a id="osed-study-materials"></a>
 
 ### Study Materials
 
@@ -309,8 +382,9 @@
 - [wry4n - OSED Scripts](https://github.com/wry4n/osed-scripts)
 - [r0r0x-xx - OSED Pre](https://github.com/r0r0x-xx/OSED-Pre)
 
-### Reviews
+<a id="osed-reviews"></a>
 
+### Reviews
 
 - [YouTube - aWHL9hIKTCA](https://www.youtube.com/watch?v=aWHL9hIKTCA)
 - [YouTube - 62mWZ1xd8eM](https://www.youtube.com/watch?v=62mWZ1xd8eM)
@@ -332,6 +406,8 @@
 - [OSED Review - cydtseng](https://medium.com/@cydtseng/offsec-exploit-developer-osed-course-review-and-exam-preparation-tips-637a208934b8)
 - [OSED Review - insanitys](https://insanitys.medium.com/osed-review-cheatsheet-ad55b8aab1e2)
 - [OSCE3 Journey - Fabian](https://fabian-lim.com/my-journey-to-osce3-1a86d42a114d)
+
+<a id="osed-labs"></a>
 
 ### Labs
 
@@ -356,7 +432,15 @@
 - [PWN College](https://pwn.college/)
 - [CEDS by Red Team Leaders](https://courses.redteamleaders.com/exams/dea865ef-8649-4a4a-8002-83a725f7338d)
 
+[↑ Back to navigation](#quick-navigation)
+
+---
+
 ## OSEE
+
+> Advanced Windows exploitation, heap manipulation, kernel research, and mitigation bypasses.
+
+<a id="osee-content"></a>
 
 ### Content
 
@@ -365,6 +449,8 @@
 - Disarming WDEG mitigations and creating version independence for weaponization
 - 64-Bit Windows Kernel Driver reverse engineering and vulnerability discovery
 - Bypass of kernel mode security mitigations such as kASLR, NX, SMEP, SMAP, kCFG and HVCI
+
+<a id="osee-study-materials"></a>
 
 ### Study Materials
 
@@ -384,6 +470,8 @@
 - [Windows API with Python](https://github.com/ndeepak-zzzz/Windows-API-with-Python)
 - [Windows API for Pentesting – int0x33](https://int0x33.medium.com/day-59-windows-api-for-pentesting-part-1-178c6ba280cb)
 
+<a id="osee-reviews"></a>
+
 ### Reviews
 
 - [AWEOSEE Review – ihack4falafel](https://ihack4falafel.github.io/Offensive-Security-AWEOSEE-Review/)
@@ -394,6 +482,8 @@
 - [OSEE Review by Jake Mayhew](https://medium.com/@jake.mayhew/exp-401-osee-review-offensive-security-exploitation-expert-508f3357851d)
 - [Journey OSEE](https://io.cyberdefense.jp/en/entry/journey-to-osee-beyond-try-harder/)
 - [OSEE Ultimate Guide](https://flashgenius.net/blog-article/osee-certification-the-ultimate-2025-guide)
+
+<a id="osee-labs"></a>
 
 ### Labs
 
@@ -407,16 +497,24 @@
 - [3XPL01t5 – w4fz5uck5](https://github.com/w4fz5uck5/3XPL01t5)
 - [CWDE - Red Team Leaders](https://courses.redteamleaders.com/exams/6dd6c07f-b8f5-49a5-aa0c-6e4da3fe1819)
 
+[↑ Back to navigation](#quick-navigation)
+
+---
+
+<a id="osce-resources"></a>
+
 ## OSCE³ OffSec Resources
 
 - [OffSec Courses Tools](https://www.kali.org/tools/offsec-courses/)
 
 ## Social Network
 
-### [Joas Antonio - Linkedin](https://www.linkedin.com/in/joas-antonio-dos-santos)
-### [JoasASantos - GitHub](https://github.com/JoasASantos)
-### [C0d3Cr4zy - Twitter](https://twitter.com/C0d3Cr4zy)
+- [Joas Antonio - Linkedin](https://www.linkedin.com/in/joas-antonio-dos-santos)
+- [JoasASantos - GitHub](https://github.com/JoasASantos)
+- [C0d3Cr4zy - Twitter](https://twitter.com/C0d3Cr4zy)
 
-### [Filipi Pires - Linkedin](https://www.linkedin.com/in/filipipires/)
-### [Filipi Pires - GitHub](https://github.com/filipi86)
-### [Filipi Pires - Twitter](https://twitter.com/FilipiPires)
+- [Filipi Pires - Linkedin](https://www.linkedin.com/in/filipipires/)
+- [Filipi Pires - GitHub](https://github.com/filipi86)
+- [Filipi Pires - Twitter](https://twitter.com/FilipiPires)
+
+[↑ Back to navigation](#quick-navigation)
